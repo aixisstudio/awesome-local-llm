@@ -28,4 +28,13 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 | Tool | What |
 |---|---|
 | [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT-like UI |
-| [LocalAI](https://g
+| [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
+| [LiteLLM](https://github.com/BerriAI/litellm) | One API → 100+ providers |
+
+> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
+
+## 📦 Models by size & use
+
+| Model | Size | Best for |
+|---|---|---|
+| Llama 3.3 70B | 40GB+ | Best
