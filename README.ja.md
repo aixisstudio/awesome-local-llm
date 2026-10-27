@@ -37,6 +37,38 @@ _詳細なコンテンツ（リスト・リンク・説明）は保守のため�
 
 > 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
 
+## 📦 Models by size & use
+
+| Model | Size | Best for |
+|---|---|---|
+| Llama 3.3 70B | 40GB+ | Best open quality |
+| Qwen 2.5 72B | 45GB+ | Multilingual/coding |
+| Mistral Small 3 | 14GB | Sweet spot 24B |
+| Phi-4 | 9GB | Microsoft's 14B — great reasoning |
+| Gemma 2 9B | 6GB | Fast + good |
+| Qwen 2.5 3B | 2GB | Laptop-friendly |
+| Llama 3.2 1B | <1GB | Phone-class |
+
+## ⚙️ Serving & tuning
+
+| Tool | What |
+|---|---|
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | CPU/GPU inference everywhere |
+| [llama-swap](https://github.com/mostlygeek/llama-swap) | Hot-swap models on one port |
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Feature-dense UI |
+| [KoboldCpp](https://github.com/LostRuins/koboldcpp) | Storytelling-oriented |
+| [Unsloth](https://github.com/unslothai/unsloth) | 2-5× faster finetuning |
+| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | YAML-driven finetunes |
+
+## 🧪 Hardware guide
+
+| Setup | Runs |
+|---|---|
+| 8GB RAM laptop | 3B-4B quantized |
+| 16GB Mac / gaming PC | 7-9B fast, 14B ok |
+| 24GB VRAM | 24-32B quantized |
+| 64GB+ | 70B quantized |
+
 ---
 ## 貢献
 
