@@ -1,0 +1,6 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+title: Awesome Local Llm
+description: Run LLMs locally — tools, models, quantizations, privacy-first AI
+show_downloads: false
