@@ -4,70 +4,68 @@
 
 Ejecuta LLMs en local — herramientas, modelos, IA privada
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
 ## 🏃 Runners
-| Tool | What |
+← Herramienta permanente ¿Qué pasa?
 |---|---|
-| [Ollama](https://github.com/ollama/ollama) | The Docker of local LLMs |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | The engine underneath everything |
-| [LM Studio](https://lmstudio.ai/) | Friendly GUI for local models |
-| [Jan](https://github.com/janhq/jan) | Open-source ChatGPT desktop alternative |
-| [GPT4All](https://github.com/nomic-ai/gpt4all) | Easy desktop runner + local RAG |
-| [koboldcpp](https://github.com/LostRuins/koboldcpp) | Feature-rich single-binary server |
-| [vLLM](https://github.com/vllm-project/vllm) | High-throughput production serving |
-| [MLX](https://github.com/ml-explore/mlx) | Apple's ML framework — fast on M-chips |
+Silencio [Ollama] (https://github.com/ollama/ollama)
+[llama.cpp] (https://github.com/ggml-org/llama.cpp) El motor debajo de todo
+Silencio [LM Studio] (https://lmstudio.ai/)
+Silencio [Jan](https://github.com/janhq/jan) Silencio Open-source ChatGPT alternativa de escritorio
+Silencio [GPT4All] (https://github.com/nomic-ai/gpt4all)
+Silencio [koboldcpp] (https://github.com/LostRuins/koboldcpp)
+Silencio [vLLM] (https://github.com/vllm-project/vllm)
+Silencio [MLX] (https://github.com/ml-explore/mlx) TENIDO El marco ML de Apple — rápido en M-chips TEN
 
-## 🧠 Models worth running
-| Model | Sweet spot |
+## 🧠 Modelos vale la pena correr
+Silencioso modelo Silencioso lugar dulce
 |---|---|
-| Llama 3.x (8B/70B) | General chat, Meta's workhorse |
-| Qwen 2.5/3 | Best multilingual + coding per GB |
-| Mistral / Mixtral | Efficient MoE, French 🇫🇷 |
-| DeepSeek-V3/R1 | Reasoning monster |
-| Gemma 2/3 | Google's compact open weights |
-| Phi-4 | Microsoft's small-but-smart |
+Silencio Llama 3.x (8B/70B) Silencio General chat, Meta's workhorse TEN
+Silencio Qwen 2.5/3 Silencio Mejor bilingüe + codificación por GB
+← Mistral / Mixtral tención Eficiente MoE, Francés 🇫 Desnudez Silencio
+Silencio DeepSeek-V3/R1 Silencio Reasoning monstruo
+Silencio Gemma 2/3 Silencio Las pesas abiertas compactas de Google
+TEN Phi-4 TENIDO El pequeño pero inteligente de Microsoft
 
 ## 🔌 Integrations
-| Tool | What |
+← Herramienta permanente ¿Qué pasa?
 |---|---|
-| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT-like UI |
-| [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
-| [LiteLLM](https://github.com/BerriAI/litellm) | One API → 100+ providers |
+Silencio [Open WebUI] (https://github.com/open-webui/open-webui)
+Silencio [LocalAI](https://github.com/mudler/LocalAI)
+Silencio [LiteLLM] (https://github.com/BerriAI/litellm) Silencio One API → 100+ Proveedores
 
-> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
+¿Por qué local? Privacidad-primero, offline, cero costo por token. Pare bien con [Snitch] (https://github.com/aixisstudio/Snitch) para *probar* nada deja su máquina.
 
-## 📦 Models by size & use
+## 📦 Modelos por tamaño &gt; uso
 
-| Model | Size | Best for |
+Silencio Modelo Silencio Tamaño Silencio Mejor para Silencio
 |---|---|---|
-| Llama 3.3 70B | 40GB+ | Best open quality |
-| Qwen 2.5 72B | 45GB+ | Multilingual/coding |
-| Mistral Small 3 | 14GB | Sweet spot 24B |
-| Phi-4 | 9GB | Microsoft's 14B — great reasoning |
-| Gemma 2 9B | 6GB | Fast + good |
-| Qwen 2.5 3B | 2GB | Laptop-friendly |
-| Llama 3.2 1B | <1GB | Phone-class |
+Silencio Llama 3.3 70B Silencio 40GB+ Silencio La mejor calidad
+Silencio Qwen 2.5 72B Silencio 45GB+ Silencio
+Silencio Mistral Small 3
+TEN Phi-4 TENIDO 9GB TENIDO El 14B de Microsoft — gran razonamiento
+Silencio Gemma 2 9B Silencio 6GB Silencio rápido + buena vida
+Silencio Qwen 2.5 3B Silencio 2GB Silencioso
+TENIDO Llama 3.2 1B TENIDO
 
-## ⚙️ Serving & tuning
+## ## ⚙κ Serving &gt; ##
 
-| Tool | What |
+← Herramienta permanente ¿Qué pasa?
 |---|---|
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | CPU/GPU inference everywhere |
-| [llama-swap](https://github.com/mostlygeek/llama-swap) | Hot-swap models on one port |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Feature-dense UI |
-| [KoboldCpp](https://github.com/LostRuins/koboldcpp) | Storytelling-oriented |
-| [Unsloth](https://github.com/unslothai/unsloth) | 2-5× faster finetuning |
-| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | YAML-driven finetunes |
+Silencio [llama.cpp] (https://github.com/ggml-org/llama.cpp)
+Silencio [llama-swap] (https://github.com/mostlygeek/llama-swap)
+[text-generación-webui] (https://github.com/oobabooga/text-generation-webui)
+Silencio [KoboldCpp] (https://github.com/LostRuins/koboldcpp)
+[Unsloth] (https://github.com/unslothai/unsloth) Silencio 2-5× fast finetuning Silencio
+Silencio [Axolotl] (https://github.com/axolotl-ai-cloud/axolotl)
 
 ## 🧪 Hardware guide
 
-| Setup | Runs |
+← Configuración Silenciosos Corres
 |---|---|
-| 8GB RAM laptop | 3B-4B quantized |
-| 16GB Mac / gaming PC | 7-9B fast, 14B ok |
-| 24GB VRAM | 24-32B quantized |
-| 64GB+ | 70B quantized |
+Silencio 8GB RAM laptop Silencio 3B-4B quantized Silencio
+TEN 16GB Mac / juego PC TENIDO 7-9B rápido, 14B ok
+Silencio 24GB VRAM Silencio 24-32B quantized Silencio
+Silencio 64GB+ Silencio 70B quantized Silencio
 
 ---
 ## Contribuir
