@@ -4,70 +4,68 @@
 
 Локальные LLM — инструменты, модели, приватность
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
-
-## 🏃 Runners
-| Tool | What |
+## s Бегуны
+Инструмент Что?
 |---|---|
-| [Ollama](https://github.com/ollama/ollama) | The Docker of local LLMs |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | The engine underneath everything |
-| [LM Studio](https://lmstudio.ai/) | Friendly GUI for local models |
-| [Jan](https://github.com/janhq/jan) | Open-source ChatGPT desktop alternative |
-| [GPT4All](https://github.com/nomic-ai/gpt4all) | Easy desktop runner + local RAG |
-| [koboldcpp](https://github.com/LostRuins/koboldcpp) | Feature-rich single-binary server |
-| [vLLM](https://github.com/vllm-project/vllm) | High-throughput production serving |
-| [MLX](https://github.com/ml-explore/mlx) | Apple's ML framework — fast on M-chips |
+[Ollama] (https://github.com/ollama/ollama) | Докер локальных LLM
+[llama.cpp] (https://github.com/ggml-org/llama.cpp) Двигатель под всем этим
+LM Studio (https://lmstudio.ai/) - дружественный графический интерфейс для локальных моделей
+| [Jan](https://github.com/janhq/jan) | Альтернатива рабочего стола ChatGPT с открытым исходным кодом |
+| [GPT4All] (https://github.com/nomic-ai/gpt4all) | Легкий настольный бегун + местный RAG |
+| [koboldcpp](https://github.com/LostRuins/koboldcpp) | Многофункциональный однобинарный сервер |
+[vLLM] (https://github.com/vllm-project/vllm) | Высокопроизводительное производство
+| [MLX] (https://github.com/ml-explore/mlx) | ML фреймворк Apple — быстро на M-чипах |
 
-## 🧠 Models worth running
-| Model | Sweet spot |
+##  Model Модели, которые стоит использовать
+Сладкое место / Sweet spot
 |---|---|
-| Llama 3.x (8B/70B) | General chat, Meta's workhorse |
-| Qwen 2.5/3 | Best multilingual + coding per GB |
-| Mistral / Mixtral | Efficient MoE, French 🇫🇷 |
-| DeepSeek-V3/R1 | Reasoning monster |
-| Gemma 2/3 | Google's compact open weights |
-| Phi-4 | Microsoft's small-but-smart |
+| Llama 3.x (8B/70B) | Общий чат, рабочая лошадка Meta |
+| Qwen 2.5/3 | Лучший многоязычный + кодирование на ГБ |
+Mistral / Mixtral | Efficient MoE, французский язык
+DeepSeek-V3/R1 - монстр разума
+| Gemma 2/3 | Компактные открытые веса Google
+Phi-4 — маленький, но умный Microsoft
 
-## 🔌 Integrations
-| Tool | What |
+## Интеграция
+Инструмент Что?
 |---|---|
-| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT-like UI |
-| [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
-| [LiteLLM](https://github.com/BerriAI/litellm) | One API → 100+ providers |
+[Открытый WebUI] (https://github.com/open-webui/open-webui) | Пользовательский интерфейс, похожий на ChatGPT
+| [LocalAI] (https://github.com/mudler/LocalAI) | OpenAI-совместимый локальный API |
+[LiteLLM] (https://github.com/BerriAI/litellm) | Один API → 100+ провайдеров
 
-> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
+Почему локально? Конфиденциальность в первую очередь, офлайн, нулевая стоимость за токен. Хорошо сочетается с [Snitch] (https://github.com/aixisstudio/Snitch), чтобы *доказать*, что ничто не покидает вашу машину.
 
-## 📦 Models by size & use
+##   Модели по размеру и использованию
 
-| Model | Size | Best for |
+Лучший размер / Size - Best for
 |---|---|---|
-| Llama 3.3 70B | 40GB+ | Best open quality |
-| Qwen 2.5 72B | 45GB+ | Multilingual/coding |
-| Mistral Small 3 | 14GB | Sweet spot 24B |
-| Phi-4 | 9GB | Microsoft's 14B — great reasoning |
-| Gemma 2 9B | 6GB | Fast + good |
-| Qwen 2.5 3B | 2GB | Laptop-friendly |
-| Llama 3.2 1B | <1GB | Phone-class |
+Llama 3.3 70B | 40GB + | Лучшее открытое качество |
+Qwen 2.5 72B | 45GB + | Многоязычный / кодирующий
+Mistral Small 3 | 14GB | Сладкое пятно 24B
+Phi-4 | 9 ГБ | Microsoft 14B — отличная аргументация
+| Джемма 2 9B | 6GB | Быстро + хорошо
+Qwen 2.5 3B | 2GB | Удобный для ноутбуков
+| Llama 3.2 1B | <1GB | Телефонный класс |
 
-## ⚙️ Serving & tuning
+##  ️ Обслуживание и настройка
 
-| Tool | What |
+Инструмент Что?
 |---|---|
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | CPU/GPU inference everywhere |
-| [llama-swap](https://github.com/mostlygeek/llama-swap) | Hot-swap models on one port |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Feature-dense UI |
-| [KoboldCpp](https://github.com/LostRuins/koboldcpp) | Storytelling-oriented |
-| [Unsloth](https://github.com/unslothai/unsloth) | 2-5× faster finetuning |
-| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | YAML-driven finetunes |
+[llama.cpp] (https://github.com/ggml-org/llama.cpp) — вывод CPU/GPU повсюду
+| [llama-swap] (https://github.com/mostlygeek/llama-swap) | Модели горячей замены на одном порту |
+[text-generation-webui] (https://github.com/oobabooga/text-generation-webui) | Функциональный интерфейс
+[KoboldCpp] (https://github.com/LostRuins/koboldcpp) | Ориентированный на рассказы
+| [Unsloth](https://github.com/unslothai/unsloth) | 2-5× более быстрая настройка |
+[Axolotl] (https://github.com/axolotl-ai-cloud/axolotl) | Настройки, управляемые YAML
 
-## 🧪 Hardware guide
+###Твердое руководство
 
-| Setup | Runs |
+Обсуждение Setup | Runs
 |---|---|
-| 8GB RAM laptop | 3B-4B quantized |
-| 16GB Mac / gaming PC | 7-9B fast, 14B ok |
-| 24GB VRAM | 24-32B quantized |
-| 64GB+ | 70B quantized |
+| 8 ГБ ОЗУ ноутбука | 3B-4B квантованный |
+| 16GB Mac / игровой ПК | 7-9B быстро, 14B ok |
+| 24GB VRAM | 24-32B квантованный |
+| 64GB+ | 70B квантованный |
 
 ---
 ## Участие
