@@ -4,70 +4,68 @@
 
 Faire tourner des LLM en local — outils, modèles, quantization, IA privacy-first
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
-
-## 🏃 Runners
-| Tool | What |
+Les coureurs
+Outil Quoi ?
 |---|---|
-| [Ollama](https://github.com/ollama/ollama) | The Docker of local LLMs |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | The engine underneath everything |
-| [LM Studio](https://lmstudio.ai/) | Friendly GUI for local models |
-| [Jan](https://github.com/janhq/jan) | Open-source ChatGPT desktop alternative |
-| [GPT4All](https://github.com/nomic-ai/gpt4all) | Easy desktop runner + local RAG |
-| [koboldcpp](https://github.com/LostRuins/koboldcpp) | Feature-rich single-binary server |
-| [vLLM](https://github.com/vllm-project/vllm) | High-throughput production serving |
-| [MLX](https://github.com/ml-explore/mlx) | Apple's ML framework — fast on M-chips |
+[Ollama] (https://github.com/ollama/ollama) Le Docker des LLM locales
+[lama.cpp](https://github.com/ggml-org/llama.cpp) Le moteur sous tout.
+[LM Studio](https://lmstudio.ai/) (en anglais seulement)
+[Jan](https://github.com/janhq/jan)=Open-source ChatGPT alternative de bureau
+[GPT4All](https://github.com/nomic-ai/gpt4all)
+[koboldcpp](https://github.com/LostRuins/koboldcpp)
+[vLLM](https://github.com/vllm-project/vllm)
+[MLX](https://github.com/ml-explore/mlx)=Le cadre ML d'Apple — rapide sur les puces M=
 
-## 🧠 Models worth running
-| Model | Sweet spot |
+Modèles en cours d'exécution
+Modèle
 |---|---|
-| Llama 3.x (8B/70B) | General chat, Meta's workhorse |
-| Qwen 2.5/3 | Best multilingual + coding per GB |
-| Mistral / Mixtral | Efficient MoE, French 🇫🇷 |
-| DeepSeek-V3/R1 | Reasoning monster |
-| Gemma 2/3 | Google's compact open weights |
-| Phi-4 | Microsoft's small-but-smart |
+Lama 3.x (8B/70B)
+Qwen 2.5/3: Meilleur codage multilingue + par GB
+Mistral / Mixtral (MdE) efficace, français
+DeepSeek-V3/R1
+Gemma 2/3 de Google poids ouverts compacts
+Le petit mais intelligent de Microsoft
 
-## 🔌 Integrations
-| Tool | What |
+Intégrations
+Outil Quoi ?
 |---|---|
-| [Open WebUI](https://github.com/open-webui/open-webui) | Self-hosted ChatGPT-like UI |
-| [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
-| [LiteLLM](https://github.com/BerriAI/litellm) | One API → 100+ providers |
+[Open WebUI](https://github.com/open-webui/open-webui) (en anglais seulement)
+[LocalAI](https://github.com/mudler/LocalAI)= API locale compatible OpenAI
+Une API → 100+ fournisseurs
 
-> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
+> Pourquoi local ? Vie privée-premier, hors ligne, aucun coût par jeton. Paire bien avec [Snitch](https://github.com/aixisstudio/Snitch) pour *prouver* rien ne quitte votre machine.
 
-## 📦 Models by size & use
+Modèles par taille et utilisation
 
-| Model | Size | Best for |
+Modèle Taille Meilleur pour
 |---|---|---|
-| Llama 3.3 70B | 40GB+ | Best open quality |
-| Qwen 2.5 72B | 45GB+ | Multilingual/coding |
-| Mistral Small 3 | 14GB | Sweet spot 24B |
-| Phi-4 | 9GB | Microsoft's 14B — great reasoning |
-| Gemma 2 9B | 6GB | Fast + good |
-| Qwen 2.5 3B | 2GB | Laptop-friendly |
-| Llama 3.2 1B | <1GB | Phone-class |
+Lama 3,3 70B , 40 Go + , Meilleure qualité ouverte
+Qwen 2,5 72B) 45GB+) Multilingue/codage
+Mistral Petites 3
+Phi-4-GB: 14B de Microsoft — grand raisonnement
+Gemma 2 9B
+Qwen 2.5 3B
+Lama 3.2 1B. <1GB.
 
-## ⚙️ Serving & tuning
+Le service et le réglage
 
-| Tool | What |
+Outil Quoi ?
 |---|---|
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | CPU/GPU inference everywhere |
-| [llama-swap](https://github.com/mostlygeek/llama-swap) | Hot-swap models on one port |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | Feature-dense UI |
-| [KoboldCpp](https://github.com/LostRuins/koboldcpp) | Storytelling-oriented |
-| [Unsloth](https://github.com/unslothai/unsloth) | 2-5× faster finetuning |
-| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | YAML-driven finetunes |
+[lama.cpp](https://github.com/ggml-org/llama.cpp)= Inférence CPU/GPU partout
+[Lama-swap](https://github.com/mostlygeek/llama-swap)
+[text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+[KoboldCpp] (https://github.com/LostRuins/koboldcpp)
+(https://github.com/unslothai/unsloth)
+[Axolotl](https://github.com/axolotl-ai-cloud/axolotl)
 
-## 🧪 Hardware guide
+Guide du matériel
 
-| Setup | Runs |
+Configuration Exécutions
 |---|---|
-| 8GB RAM laptop | 3B-4B quantized |
-| 16GB Mac / gaming PC | 7-9B fast, 14B ok |
-| 24GB VRAM | 24-32B quantized |
-| 64GB+ | 70B quantized |
+Ordinateur portable RAM 8 Go
+16 Go Mac / PC de jeu
+24 Go VRAM
+64 Go + 70 B quantifié
 
 ---
 ## Contribuer
