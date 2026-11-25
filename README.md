@@ -33,7 +33,7 @@ Run LLMs locally — tools, models, quantizations, privacy-first AI
 | [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
 | [LiteLLM](https://github.com/BerriAI/litellm) | One API → 100+ providers |
 
-> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Snitch](https://github.com/aixisstudio/Snitch) to *prove* nothing leaves your machine.
+> 🔒 Why local? Privacy-first, offline, zero cost per token. Pairs well with [Wiretap](https://github.com/aixisstudio/Wiretap) to *prove* nothing leaves your machine.
 
 ## 📦 Models by size & use
 
@@ -68,7 +68,7 @@ Run LLMs locally — tools, models, quantizations, privacy-first AI
 | 64GB+ | 70B quantized |
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
